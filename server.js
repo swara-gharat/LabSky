@@ -25,9 +25,9 @@ app.use('/reports', express.static(path.join(__dirname, 'uploads', 'reports')));
 // Database Connection
 const db = mysql.createConnection({
   host: "localhost", // Replace with your DB host
-  user: "root",      // Replace with your DB username
-  password: "Swara",      // Replace with your DB password
-  database: "labsky" // Replace with your DB name
+  user: "",      // Replace with your DB username
+  password: "",      // Replace with your DB password
+  database: "" // Replace with your DB name
 });
 
 db.connect((err) => {
