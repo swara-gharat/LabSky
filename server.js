@@ -214,14 +214,14 @@ const sendReportEmail = async (emailDetails) => {
   const transporter = nodemailer.createTransport({
     service: "gmail",
     auth: {
-      user: "swaragharat7@gmail.com", // Replace with your email
-      pass: "pesg kxij zgyi gjea",    // Replace with your app password
+      user: "", // Replace with your email
+      pass: "",    // Replace with your app password
     },
   });
 
   // Prepare email content
   const mailOptions = {
-    from: "swaragharat7@gmail.com",
+    from: "",
     to: email,
     subject: "LabSky Report Upload Confirmation",
     html: `
