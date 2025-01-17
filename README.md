@@ -24,6 +24,8 @@ CREATE DATABASE labsky;
 USE labsky;
 Run script from sql file into your sql script.
 
+Also create uploads folder in project and then reports folder in it so that uploaded reports of tests can be saved there.
+
 Running the Project:
 -cd LabSky
 -npm start
