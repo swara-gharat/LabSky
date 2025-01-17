@@ -24,6 +24,13 @@ git clone https://github.com/swara-gharat/LabSky.git
 Install Dependencies:
 npm install
 
+To create local sql db:
+In your MySQL Workbench, create one db named labsky.
+Run 
+CREATE DATABASE labsky;
+USE labsky;
+Run script from sql file into your sql script.
+
 Running the Project:
 -cd LabSky
 -npm start
