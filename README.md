@@ -1,13 +1,6 @@
 LabSky: Online Lab Appointment Booking System
 LabSky is a platform that allows users to book lab appointments, reschedule them, and download reports online.
 
-Table of Contents:
--Getting Started
--Installation
--Running the Project
--Database Setup
--Folder Structure
-
 Getting Started:
 These instructions will help you set up and run the project on your local machine.
 
